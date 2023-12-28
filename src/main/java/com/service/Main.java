@@ -1,4 +1,4 @@
-package com.amigoscode;
+package com.service;
 
 import java.util.Scanner;
 
