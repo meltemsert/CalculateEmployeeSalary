@@ -2,7 +2,7 @@ package com.service;
 
 import java.util.Scanner;
 
-public class Main {
+public class EmployeeSalaryCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the day of employee please: ");
@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Salary of Employee " + totalSalary + "TL");
     }
 
-    private static double calculateEmployeeSalary(int countDay) {
+    public static double calculateEmployeeSalary(int countDay) {
         double dailySalary = 1000.0;
         if (countDay <= 25) {
             return countDay * dailySalary;
